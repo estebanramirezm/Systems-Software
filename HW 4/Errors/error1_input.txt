@@ -1,0 +1,6 @@
+var x, y;
+
+begin
+    x := 5;
+    call star;
+end.

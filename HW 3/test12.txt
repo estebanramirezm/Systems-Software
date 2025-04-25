@@ -1,0 +1,4 @@
+var thisIdentifierIsTooLong;
+begin
+    thisIdentifierIsTooLong := 5;
+end.

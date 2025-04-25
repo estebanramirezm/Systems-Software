@@ -1,0 +1,32 @@
+No errors, program is syntactically correct.
+
+Assembly Code:
+
+Line OP L M
+ 0 JMP 0 34
+ 1 JMP 0 16
+ 2 INC 0 4
+ 3 LIT 0 1
+ 4 STO 0 3
+ 5 LOD 0 3
+ 6 SYS 0 1
+ 7 OPR 0 0
+ 8 INC 0 4
+ 9 LIT 0 1
+10 LIT 0 2
+11 OPR 0 9
+12 JPC 0 58
+13 LIT 0 0
+14 SYS 0 1
+15 JMP 0 61
+16 CAL 0 13
+17 SYS 0 3
+
+
+Symbol Table:
+Kind | Name      | Value | Level | Address | Mark
+-----------------------------------------------------
+   1 | orange     |     1 |     0 |       0 |    1
+   2 | apple      |     0 |     0 |       3 |    1
+   3 | banana     |     0 |     0 |      13 |    1
+   2 | cherry     |     0 |     1 |       3 |    1

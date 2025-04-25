@@ -1,0 +1,15 @@
+var x, y;
+
+procedure ocean;
+begin
+    x := 5;
+end;
+
+procedure ocean;
+begin
+    y := 10;
+end;
+
+begin
+    call ocean;
+end.

@@ -1,0 +1,5 @@
+const = 10;
+var x;
+begin
+    x := 5;
+end.

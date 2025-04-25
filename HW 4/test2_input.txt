@@ -1,0 +1,13 @@
+const orange = 1;
+var apple;
+procedure banana;
+var cherry;
+begin
+    cherry := 1;
+    write cherry;
+end;
+begin
+    if orange > 2 then
+        write 0
+    else call banana fi;
+end.

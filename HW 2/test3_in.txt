@@ -1,0 +1,21 @@
+begin
+    /*/ comment
+    /**/ tokenized1
+    /***/
+    /*/*/
+    /* single */
+    /* multi */
+    / * you should also see this * /
+    /* nested /* comment */
+    /* fake1 /* fake2 */ tokenized2 */
+    /* multiline
+    comment1
+    comment2 */
+
+    /* last test case (compare with my token list) */
+
+    real1 /* fake1 /*
+    fake2 */ real2
+    */ real3 /*
+    fake3 */ real4 */ real5;
+end.
