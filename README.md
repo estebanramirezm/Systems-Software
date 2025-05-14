@@ -2,9 +2,7 @@
 
 ## Overview
 
-This project is a multi-stage implementation of a complete compiler and execution environment for the PL/0 programming language, developed across four major assignments. It showcases the construction of core components typically found in a compiler toolchain, including lexical analysis, parsing, code generation, and a stack-based virtual machine.
-
-The implementation uses C to progressively build a minimal but functional language processor.
+This project is a multi-stage implementation of a complete compiler and execution environment for the PL/0 programming language, developed across four major assignments. It showcases the construction of core components typically found in a compiler toolchain, including lexical analysis, parsing, code generation, and a stack-based virtual machine. The implementation uses C and gcc.
 
 ## Components
 
