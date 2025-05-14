@@ -1,0 +1,4 @@
+var x;
+begin
+    while x < 10 x := x + 1;
+end.

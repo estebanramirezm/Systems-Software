@@ -1,0 +1,55 @@
+Source Program:
+begin
+    /*/ comment
+    /**/ tokenized1
+    /***/
+    /*/*/
+    /* single */
+    /* multi */
+    / * you should also see this * /
+    /* nested /* comment */
+    /* fake1 /* fake2 */ tokenized2 */
+    /* multiline
+    comment1
+    comment2 */
+
+    /* last test case (compare with my token list) */
+
+    real1 /* fake1 /*
+    fake2 */ real2
+    */ real3 /*
+    fake3 */ real4 */ real5;
+end.
+
+Lexeme Table:
+
+lexeme		token type
+begin     	21
+tokenized1	2
+/         	7
+*         	6
+you       	2
+should    	2
+also      	2
+see       	2
+this      	2
+*         	6
+/         	7
+tokenized2	2
+*         	6
+/         	7
+real1     	2
+real2     	2
+*         	6
+/         	7
+real3     	2
+real4     	2
+*         	6
+/         	7
+real5     	2
+;         	18
+end       	22
+.         	19
+
+Token List:
+21 2 tokenized1 7 6 2 you 2 should 2 also 2 see 2 this 6 7 2 tokenized2 6 7 2 real1 2 real2 6 7 2 real3 2 real4 6 7 2 real5 18 22 19 
