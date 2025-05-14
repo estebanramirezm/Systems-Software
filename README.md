@@ -37,4 +37,5 @@ Each component includes its own compilation and usage instructions using `gcc`.
 ## Author
 
 **Esteban Ramirez**
+
 Email: [esteban.ramirezmejia@ucf.edu](mailto:esteban.ramirezmejia@ucf.edu)
