@@ -1,4 +1,4 @@
-# PL/0 Compiler and Virtual Machine Suite
+# PL/0 Compiler and Virtual Machine
 
 ## Overview
 
